@@ -1,0 +1,80 @@
+<!--7_elementos_semanticos.html: Crie uma página que contenha 
+○ um cabeçalho “header” com um <h1>Cursos de Programação:</h1>
+○ Uma navegação “nav” com uma lista de
+marcadores: profkelson.tech, udemy e
+codeacademy
+○ Cada marcador da navegação tem o
+seguinte link: ■ https://www.profkelson.tech ■ https://www.udemy.com ■ https://www.codeacademy.co
+m-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos samanticos</title>
+    <style>
+        body {
+            background-color: lightgreen;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav ul li {
+            float: inline;     
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+       
+</head>
+    
+<body>
+    <header>
+        <h1>Cursos de Programação</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://www.profkelson.tech">profkelson.tech</a>        
+                    
+                        <a href="https://www.udemy.com">udemy</a>                   
+                    
+                        <a href="https://codeacademy.com">codeacademy</a>
+                    </li>
+                </ul>            
+            </nav>           
+    </header>    
+</body>
+</html>
